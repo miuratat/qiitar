@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">qiitar</string>
+    <string name="all_label">NEWS</string>
+    <string name="setting_layout">layout</string>
+    <string name="setting_right">list on the right</string>
+    <string name="setting_list_font">list font size</string>
+    <string name="setting_web_font">web font size</string>
+    <string name="setting_network">network</string>
+    <string name="setting_access">articles by 1access</string>
+    <string name="setting_follow">follow</string>
+    
+    <string name="setting_lagest">lagest</string>
+    <string name="setting_lager">lager</string>
+    <string name="setting_normal">normal</string>
+    <string name="setting_smaller">smaller</string>
+    <string name="setting_smallest">smallest</string>
+    
+	<string name="tags">JavaScript,HTML,CSS,iPhone,PHP,Android,Ruby,Java,Qiita,HTML5,Vim,Git,Objective-C,Python,GitHub,jQuery,Linux,iOS,Mac,C++,MySQL,ShellScript,CSS3,C,MacOSX,Xcode,Node.js,Chrome,正規表現,Rails,CoffeeScript,Apache,CentOS,Emacs,Twitter,C#,Perl,SSH,Ubuntu,nginx,Facebook,Swift,Haskell,MongoDB,Zsh,Scala,Heroku,Backbone.js,TDD,Scheme</string>
+</resources>

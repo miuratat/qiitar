@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">qiitar</string>
+    <string name="all_label">新着</string>
+    <string name="setting_layout">レイアウト設定</string>
+    <string name="setting_right">リストを右に表示</string>
+    <string name="setting_list_font">リスト文字サイズ</string>
+    <string name="setting_web_font">Web文字サイズ</string>
+    <string name="setting_network">通信設定</string>
+    <string name="setting_access">1回で取得する記事数</string>
+    <string name="setting_follow">フォロー設定</string>
+    
+    <string name="setting_lagest">特大</string>
+    <string name="setting_lager">大</string>
+    <string name="setting_normal">中</string>
+    <string name="setting_smaller">小</string>
+    <string name="setting_smallest">特小</string>
+    
+	<string name="tags">JavaScript,HTML,CSS,iPhone,PHP,Android,Ruby,Java,Qiita,HTML5,Vim,Git,Objective-C,Python,GitHub,jQuery,Linux,iOS,Mac,C++,MySQL,ShellScript,CSS3,C,MacOSX,Xcode,Node.js,Chrome,正規表現,Rails,CoffeeScript,Apache,CentOS,Emacs,Twitter,C#,Perl,SSH,Ubuntu,nginx,Facebook,Swift,Haskell,MongoDB,Zsh,Scala,Heroku,Backbone.js,TDD,Scheme</string>
+</resources>

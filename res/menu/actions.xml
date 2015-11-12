@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto" >
+
+    <!-- Search, should appear as action button -->
+    <item
+        android:id="@+id/action_setting"
+        android:icon="@drawable/ic_menu_white"
+        android:title="リスト"
+        yourapp:showAsAction="always"/>
+    <!-- Settings, should always be in the overflow -->
+    <item
+        android:id="@+id/action_reload"
+        android:icon="@drawable/ic_refresh_white"
+        android:title="リロード"
+        yourapp:showAsAction="always"/>
+
+</menu>
