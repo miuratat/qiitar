@@ -99,7 +99,9 @@ public class ItemListFragment extends ListFragment {
 	public void onListItemClick(ListView listView, View view, int position, long id) {
 		super.onListItemClick(listView, view, position, id);
 
-		callbacks_.onItemSelected(QiitaService.getAdapter(tag_).getItem(position));
+		if(QiitaService.getAdapter(tag_).getCount() >= position + 1) {
+			callbacks_.onItemSelected(QiitaService.getAdapter(tag_).getItem(position));
+		}
 	}
 
 	@Override

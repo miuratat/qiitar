@@ -48,7 +48,8 @@ public class QiitaService {
 	private static String webfont_;
 	// 新着ラベル
 	private static String allLabel_;
-
+	// アクセスオーバー文言
+	private static String access_over_;
 	/**
 	 * セットアップ.
 	 * 
@@ -57,6 +58,7 @@ public class QiitaService {
 	 * @param sharedPreferences
 	 */
 	public static void setup(Context context, String tags, SharedPreferences sharedPreferences) {
+		access_over_ = context.getString(R.string.access_over);
 		allLabel_ = context.getString(R.string.all_label);
 		perpage_ = Integer.parseInt(sharedPreferences.getString("perpage", "50"));
 		listfont_ = sharedPreferences.getString("listfont", "normal");
@@ -220,7 +222,13 @@ public class QiitaService {
 
 					@Override
 					public void onError(Throwable e) {
-						Log.e("http", "Error : " + e.toString());
+						
+						Item i = new Item();
+						i.tags = new ArrayList<Tag>();
+						i.title = access_over_;
+						i.renderedBody = access_over_;
+						adapter.add(i);
+						adapter.notifyDataSetChanged();
 					}
 
 					@Override

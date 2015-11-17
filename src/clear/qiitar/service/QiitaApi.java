@@ -8,7 +8,7 @@ import retrofit.http.Query;
 import rx.Observable;
 
 /**
- * Itemインターフェース.
+ * QiitaApi.
  * @author miuratat
  *
  */

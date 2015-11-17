@@ -55,7 +55,7 @@ public class SettingActivity extends PreferenceActivity implements OnPreferenceC
 		listfont.setEntries(new String[] { getString(R.string.setting_lagest), getString(R.string.setting_lager),
 				getString(R.string.setting_normal), getString(R.string.setting_smaller),
 				getString(R.string.setting_smallest) });
-		listfont.setEntryValues(new String[] { "largest", "lager", "normal", "smaller", "smallest" });
+		listfont.setEntryValues(new String[] { "largest", "larger", "normal", "smaller", "smallest" });
 		listfont.setOnPreferenceChangeListener(this);
 		cate1.addPreference(listfont);
 
@@ -66,7 +66,7 @@ public class SettingActivity extends PreferenceActivity implements OnPreferenceC
 		webfont.setEntries(new String[] { getString(R.string.setting_lagest), getString(R.string.setting_lager),
 				getString(R.string.setting_normal), getString(R.string.setting_smaller),
 				getString(R.string.setting_smallest) });
-		webfont.setEntryValues(new String[] { "largest", "lager", "normal", "smaller", "smallest" });
+		webfont.setEntryValues(new String[] { "largest", "larger", "normal", "smaller", "smallest" });
 		webfont.setOnPreferenceChangeListener(this);
 		cate1.addPreference(webfont);
 
