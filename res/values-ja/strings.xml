@@ -17,5 +17,7 @@
     <string name="setting_smaller">小</string>
     <string name="setting_smallest">特小</string>
     
+    <string name="access_over">アクセス上限（1時間に60回）に達しました。時間を置いてご利用ください。</string>
+    
 	<string name="tags">JavaScript,HTML,CSS,iPhone,PHP,Android,Ruby,Java,Qiita,HTML5,Vim,Git,Objective-C,Python,GitHub,jQuery,Linux,iOS,Mac,C++,MySQL,ShellScript,CSS3,C,MacOSX,Xcode,Node.js,Chrome,正規表現,Rails,CoffeeScript,Apache,CentOS,Emacs,Twitter,C#,Perl,SSH,Ubuntu,nginx,Facebook,Swift,Haskell,MongoDB,Zsh,Scala,Heroku,Backbone.js,TDD,Scheme</string>
 </resources>
