@@ -5,8 +5,8 @@
     <string name="all_label">新着</string>
     <string name="setting_layout">レイアウト設定</string>
     <string name="setting_right">リストを右に表示</string>
-    <string name="setting_list_font">リスト文字サイズ</string>
-    <string name="setting_web_font">Web文字サイズ</string>
+    <string name="setting_list_font">記事一覧文字サイズ</string>
+    <string name="setting_web_font">記事内容文字サイズ</string>
     <string name="setting_network">通信設定</string>
     <string name="setting_access">1回で取得する記事数</string>
     <string name="setting_follow">フォロー設定</string>

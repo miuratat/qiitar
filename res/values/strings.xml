@@ -6,7 +6,7 @@
     <string name="setting_layout">layout</string>
     <string name="setting_right">list on the right</string>
     <string name="setting_list_font">list font size</string>
-    <string name="setting_web_font">web font size</string>
+    <string name="setting_web_font">content font size</string>
     <string name="setting_network">network</string>
     <string name="setting_access">articles by 1access</string>
     <string name="setting_follow">follow</string>
